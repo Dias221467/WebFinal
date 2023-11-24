@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(235, 214, 217);
+    margin-left: 85px;
+    margin-top: 70px;
+    font-family: system-ui;
+}
+
+footer {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.reduce-line-spacing {
+    line-height: 0.5;
+}
+
+
+
+/* New Navbar inside page */
+.new_navbar{
+    margin-top: 400px;
+}
+
+#new_navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #333;
+    color: #fff;
+    height: 100%;
+}
+
+#new_navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#new_navbar li {
+    margin: 10px;
+}
+
+#new_navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar a.active {
+    background: #f00; /* Highlight color for active link */
+}
+
+
+
+
+.glow {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #eeeeee, 0 0 20px #eeeeee, 0 0 30px #eeeeee, 0 0 40px #eeeeee, 
+                   0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+    }
+    to {
+      text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 
+                   0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.container_fortips {
+    margin-left: 80px;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 5px;
+}
+/* 
+.image {
+    max-width: 100%;
+    max-height:100%;
+} */
+
+.text {
+    font-size: 70px;
+}
+
+
+
+/* For background image */
+
+.hero{
+    background-image: url("img/Dry fresh.png");
+    width: 100%;
+    height: 200px;
+}
+
+/* .container_backimg{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+} */
